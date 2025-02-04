@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+.main{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+}
+
+.cardface{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    backface-visibility: hidden;
+}
+
+.main:hover{
+    transform: rotateY(180deg);
+}
+
+
+.back{
+    transform:rotateY(180deg);
+    background-color: aqua;
+    color: black;
+    border-radius: 22px;
+
+}
+
+
+.front{
+    background-color:aquamarine;
+    color: black;
+    border-radius: 22px;
+  
+
+}
+
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+    
+<div class="main">
+    <di class="front cardface">Hovr to disclose</di>
+    <di class="back cardface">Hey there</di>
+
+</div>
+
+
+</body>
+</html>

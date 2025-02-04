@@ -1,0 +1,98 @@
+<!-- 23-01-2025 Class Work  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        
+label{
+    display: block;
+}
+
+fieldset{
+    
+}
+
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="F">
+        <h1>Contact US</h1>
+        <form action="/Register">
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name" >
+
+            <label for="class">Class</label>
+            <input type="text" name="class" id="class" placeholder="Class" >
+
+            <label for="age"> Age</label>
+            <input type="number" name="age" id="age" placeholder="Enter Your Age" >
+
+            <label for="email" >Email</label>
+            <input type="email" name="email" id="email"placeholder="Enter Your Email">
+
+            <label for="dob" >Date of Birth</label>
+            <input type="date" name="dob" id="dob"placeholder="Enter Your Date Of Birth">
+
+            <label for="time" >Time</label>
+            <input type="time" name="time" id="time"placeholder="Time">
+
+            <!-- <label for="gender" >Gender</label>
+            <input type="gender" name="gender" id="gender"placeholder=" "> -->
+
+            <fieldset class="Gender">
+                <legend>Gender</legend>
+
+                <label for="male"> <input type="radio" name="gender" id="Male">Male</label>
+                <label for="female"><input type="radio" name="gender" id="Female" value="Female">Female</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Services</legend>
+                <label for="webdev"> <input type="checkbox" name="Services" id="webdev" value="webdev">Web Development</label>
+                <label for="sofdev"> <input type="checkbox" name="Services" id="sofdev">Software Development</label>
+                <label for="mobapp"> <input type="checkbox" name="Services" id="mobapp">Mobile App Development</label>
+
+            </fieldset>
+
+<label for="city">City</label>
+<select name="city" id="city">
+    <option value="Karachi">Karachi</option>
+    <option value="Islamabad">Islamabad</option>
+    <option value="Rawalpindi">Rawalpindi</option>
+    <option value="Lahore">Lahore</option>
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Queeta">Queeta</option>
+    <option value="Sibi">Sibi</option>
+    <option value="Balochistan">Balochistan</option>
+    <option value="Multan">Multan</option>
+    <option value="Hyderabad">Hyderabad</option>
+    <option value="Larkana">Larkana</option>
+    <option value="Sukkur">Sukkur</option>
+</select>
+
+
+
+
+            
+
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+
+        
+
+        </form>
+        </div>
+    
+</body>
+</html>

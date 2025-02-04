@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: azure;
+}
+
+.upper {
+
+    display: flex;
+    color: antiquewhite;
+}
+
+h1 {
+    margin: 4px;
+    color: red;
+}
+
+.navigationbar {
+    margin: 1px;
+    display: flex;
+    width: 99vw;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
